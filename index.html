@@ -57,9 +57,9 @@
              A Neotropical group of xenarthran mammals constituting the suborder Folivora, including the extant arboreal tree sloths and extinct terrestrial ...
         </pre>
     </body>
-        <heaer>
+        <header>
              <p>Education           Projects          Contact</p>
-        </heaer>
+        </header>
         <main>
             <h1> My Portfolio </h1>
             <section> My Education </section>
@@ -77,17 +77,13 @@
             height="100"
             width="100"/>
             </a>
-            <div style="
-                background-color: aqua;
-            ">
+            <div style="background-color: aqua;">
                 <p> Hello </p>
                 <p> Hiii </p>
                 <p> Hola </p>
             </div>
 
-             <div style="
-                background-color: aquamarine;
-             ">
+             <div style="background-color: aquamarine;">
                 <p> Byee </p>
                 <p> Goodbye </p>
                 <p> Ciao </p>
@@ -138,7 +134,7 @@
                     </ol>
              </ol>
 
-            <table>
+            <!-- <table>
                 <thead> 
                 <caption> Student Details </caption>
                 <tr> 
@@ -152,6 +148,117 @@
                         <td> 1660 </td>
                     </tr>
                 </tbody>
+            </table> -->
+
+            <table>
+                <thead>
+                    <caption> Students Details </caption>
+                    <tr>
+                        <th colspan="2">BIO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Nisha </td>
+                        <td> 16500</td>
+                    </tr>
+                </tbody>
             </table>
         </main>
 </html>
+
+<!-- Forms in HTML
+eg - sign uo/ login/ help request/ contact me. 
+action file checks if all the user input details are correct
+type 1 input-->
+<br><br>
+<form action = "/action.php">
+    <input type = "text" placeholder="Username">
+    <br><br>
+    <input type="password" placeholder="password">
+    <br><br>
+     <!-- Lables->radio buttons -->
+    <label for="103">
+    <input type="radio" value="class XI" name="class" id ="103">class XI
+    </label>
+    <br><br>
+    <label for="106">
+    <input type="radio" value="class XII" name="class" id ="106">class XII 
+    </label>
+</form>
+
+<!-- Class And ID -->
+
+<div id ="id1" class="group1">
+</div>
+
+<div id="id2" class="group2">
+</div>
+<br><br>
+
+<!-- Checkboxes -> Used for selecting multiple options-->
+ 
+<lable for="math">
+<input type="checkbox" value="math" name="subjext" id="101">Math
+</label>
+<br><br>
+
+<lable for="physics">
+<input type="checkbox" valye="physics" name="subject" id="102">Physics
+</label>
+<br><br>
+
+<lable for="chemistry">
+<input type="checkbox" vaue="Chemistry" name="subject" id="103">Chemistry</lable>
+<br><br>
+<lable for="biology">
+<input type="checkbox" vaue="Biology" name="subject" id="103">Biology</lable>
+
+<!-- Text Area -> for generating feedback forms -->
+
+<form action = "/action.php">
+    <input type = "text" placeholder="Username">
+    <br><br>
+    <input type="password" placeholder="password">
+    <br><br>
+     <!-- Lables->radio buttons -->
+    <label for="103">
+    <input type="radio" value="class XI" name="class" id ="103">class XI
+    </label>
+    <br><br>
+    <label for="106">
+    <input type="radio" value="class XII" name="class" id ="106">class XII 
+    </label>
+    <br><br>
+    <textarea name="feedback" id="101" placeholder="Please give your feedback over here" rows="3" columns="3" width="2">Feedback
+    </textarea>
+</form>
+<br><br>
+
+<!-- Select -> to select anything-->
+
+<select>
+    <option value="Delhi">Delhi</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Kolkata">Kolkata</option>
+    <option value="Chennai">Chennai</option>
+</select>
+<input type="submit" value="submit">
+<br><br>
+<!-- iframe Tag -> to show website inside website -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yRpLlJmRo2w?si=gaObwCUvQgnk6Ybl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://en.wikipedia.org/wiki/English_language" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br><br>
+
+<!-- Video Tag -->
+<!-- Screen will not be played here -->
+<!-- <video width ="560" height="315" src="/C:\Users\USER\OneDrive\Pictures\Dance.mp4">My video</video> -->
+
+<!-- To play the video -->
+ <!-- <video width ="560" height="315" src="/C:\Users\USER\OneDrive\Pictures\Dance.mp4" controls> My video</video> -->
+<!-- Video will play in loop -->
+<video width ="560" height="315" src="/C:\Users\USER\OneDrive\Pictures\Dance.mp4" loop> My video</video>
+
+<!-- The video will be played automatically after visiting the site -->
+<!-- <video width ="560" height="315" src="/C:\Users\USER\OneDrive\Pictures\Dance.mp4" autoplay> My video</video> -->
