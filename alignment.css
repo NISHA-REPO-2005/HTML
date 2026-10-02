@@ -1,0 +1,114 @@
+/* Text properties */
+/* p{
+    text-align: right;
+}
+p{
+    text-align: left;
+} */
+/* p{
+    text-align: center;
+} */
+#h1{
+    text-align: center;
+    text-decoration: underline; /* Text Decoration */
+    text-decoration: rgb(84, 250, 181) underline;
+    /* text-decoration: rgb(154, 35, 191) wavy underline; */
+    text-decoration: rgb(154, 35, 191) dotted underline;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* mdn -> for practice*/
+}
+/* #p{
+    text-align: center;
+}
+#p{
+    text-align: start;
+}
+
+a{
+    text-decoration: none;
+} */
+
+/* Font - weight */
+
+/* h1 {
+    font-weight: bold;
+    text-align: start;
+    text-decoration: none;
+}
+h2{
+    font-weight: bolder;
+}
+h2{
+    font-weight: light;
+}
+h4{
+    font-weight: lighter;
+} */
+/* # <- it is used for the id we have used */
+#h1{
+    font-weight: 100; 
+    text-align: start;
+    text-decoration: none;
+    color: aquamarine;
+}
+
+/* #h2{
+    font-weight: 400;
+    color: aquamarine;
+}
+
+#h3{
+    font-weight: 600;
+    color: aquamarine;
+}
+
+#h4{
+    font-weight: 900;
+    color: aquamarine;
+} */
+
+/* Font-family / font-style */
+/* #One{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Two{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+/* Units in CSS 
+Absolute -> pixels(px) -> 96px = 1 inch = 2.54 cm */
+#One{
+    font-size: 25px;
+    line-height: 5px;
+    text-transform: lowercase;/* Text properties */
+}
+
+#Two{
+    font-size: 20px;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+
+#Three{
+    font-size: 15px;
+    line-height: normal; /*no change*/
+    text-transform: uppercase;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}

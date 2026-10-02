@@ -1,0 +1,21 @@
+body{
+    color: rgb(101, 60, 11);
+}
+
+#box{
+    background-color: burlywood;
+
+}
+
+/* .heading{
+    color: color(from color srgb r g b);
+} */
+
+h1, h2, h3{
+    color: red;
+}
+
+
+button{
+    background-color: green;
+}

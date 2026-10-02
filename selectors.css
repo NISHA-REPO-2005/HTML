@@ -1,0 +1,31 @@
+/* Universal Selector  */
+*{
+    background-color: #e1e159;
+}
+
+/* Element Selector */
+h1{
+    color: rgb(115, 115, 255);
+}
+button{
+    color: rgb(239, 234, 228);
+}
+
+/* Id selector -> unique name -> we cannot give same ID to many elements*/  
+#headingOne{
+    color: darkblue;
+}
+
+#headingTwo{
+    color: blue;
+}
+
+#headingThree{
+    color: rgb(92, 155, 197);
+}
+
+/* Class Selector-> we can give same class name to many elements */
+
+.myclass{
+    color: rgb(114, 44, 82);
+}

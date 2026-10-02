@@ -1,0 +1,65 @@
+div{
+    /* Height: By default, it sets the content area height of the element */
+    height: 50px;
+    background-color: pink;
+    
+    /* Width: By default, it sets the content area width of the elements  */
+    width: 200px;
+    background-color: aqua;
+
+    /* Border: Used to set an element's border */
+    border-width: 3px;
+    /* border-style: solid; */
+    /* border-style: dotted; */
+    border-style: dashed;
+    border-color: rgb(51, 14, 238);
+    text-align: right;
+}
+h1{
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    border-width: 3px;
+    text-align: center;
+    border-style: dotted;
+    border-color: blue;
+}
+
+/* Border -> used to round the corners of an element's outer border edge. */
+div{
+    /* border-radius: 50%;  */
+    /* 50% will make the div a circle for this width and height must be equal */
+    
+    border-radius: 25px; /* for rounded corners */
+    width: 200px;
+    height : 200px;
+    background-color: aqua;
+    border-width: 3px;
+    border-style: solid;
+    border-color: brown;
+    align-items: left;
+}
+
+/* Padding: It is used to generate space around an element's content, inside of any defined borders.
+1. padding-top
+2. padding-right
+3. padding-bottom
+4. padding-left
+*/
+
+div{
+    padding: 20px; /* It will apply padding to all sides */
+    /* width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-width: 3px;
+    border-style: solid;
+    border-color: brown; 
+    or
+    */
+padding: 20px 10px 30px 40px; /* TBRL-> top right bottom left */
+margin: 20px 10px 30px 40px; /* TBRL-> top right bottom left */
+}
+
+/* padding -> area jo content ke charo taraf hota hai, aur ye border ke andar hota hai. Iska matlab hai ki padding content aur border ke beech ka space create karta hai. */
+/* Margin - It is used to generate space around elements, outside of any defined borders. It creates space between the element's border and the surrounding elements. */
